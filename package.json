@@ -20,5 +20,8 @@
     "@requestnetwork/web3-signature": "0.4.36-next.1787",
     "ethers": "5.5.1",
     "wallet-address-validator": "^0.2.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2"
   }
 }
