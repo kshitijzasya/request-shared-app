@@ -1,13 +1,20 @@
 {
-  "include": ["src"],
+  "include": [
+    "src"
+  ],
   "compilerOptions": {
     "composite": true,
     "target": "ES2017",
-    "module": "esnext",
-    "lib": ["dom", "esnext"],
+    "module": "commonjs",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
     "importHelpers": true,
     "declaration": true,
     "sourceMap": true,
+    "rootDir": "./src",
+    "outDir": "dist",
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -22,8 +29,13 @@
     "moduleResolution": "node",
     "baseUrl": "./",
     "paths": {
-      "@": ["./"],
-      "*": ["src/*", "node_modules/*"]
+      "@": [
+        "./"
+      ],
+      "*": [
+        "src/*",
+        "node_modules/*"
+      ]
     },
     "jsx": "react",
     "esModuleInterop": true,
